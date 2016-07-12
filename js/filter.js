@@ -12,17 +12,17 @@ var search = regex.exec(document.body.innerText);
 // Functions
 function filterMild() {
 	console.log("Filtering Furry with Mild filter...");
-	return $(":contains('Furry'), :contains('Fur'), :contains('Furries')").filter("h1,h2,h3,h4,h5,p,span,li");
+	return $(":contains('Furry'), :contains('Fur'), :contains('Furries'), :contains('furry'), :contains('fur'), :contains('furries')").filter("h1,h2,h3,h4,h5,p,span,li");
 }
 
 function filterDefault () {
 	console.log("Filtering Furry with Default filter...");
-	return $(":contains('Furry'), :contains('Fur'), :contains('Furries')").filter(":only-child").closest('div');
+	return $(":contains('Furry'), :contains('Fur'), :contains('Furries'), :contains('furry'), :contains('fur'), :contains('furries')").filter(":only-child").closest('div');
 }
 
 function filterVindictive() {
 	console.log("Filtering Furry with Vindictive filter...");
-	return $(":contains('Furry'), :contains('Fur'), :contains('Furries')").filter(":not('body'):not('html')");
+	return $(":contains('Furry'), :contains('Fur'), :contains('Furries'), :contains('furry'), :contains('fur'), :contains('furries')").filter(":not('body'):not('html')");
 }
 
 function getElements(filter) {

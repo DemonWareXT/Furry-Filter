@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Furry Filter",
   "version": "1.0",
-  "description": "Remove Donald Furry from the Internet.",
+  "description": "Remove Furries from the Internet.",
   "page_action" :
   {
     "default_icon" : "images/icon-19x19.png",
